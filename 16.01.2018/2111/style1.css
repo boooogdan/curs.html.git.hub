@@ -1,0 +1,28 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+#casa{
+padding-top:100px;
+}
+
+#geam{
+position: absolute;
+top:250px;
+right:500px;
+}
+#horn{
+position: absolute;
+top:20px;
+right:450px;
+}
+#usa{
+position: absolute;
+top:170px;
+right:285px;
+}
+#acoperis{
+position: absolute;
+top:20px;
+right:220px;
+}

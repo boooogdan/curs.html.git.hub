@@ -1,0 +1,27 @@
+.comparison{
+	max-width:940;
+	margin:0 auto;
+	font:13px/1.4 "Helvetica Neve", Helvetica, Arial,sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+table td,th{
+	border: 1px solid #b5c1b6;
+	padding: 20px;
+	border: 0 none;
+	margin: 0 auto;
+	text-align:center;
+}
+table{
+	border-collapse: collapse;
+	margin: 20px;
+}
+.class1{
+	color:gray;
+	text-decoration:line-through;	
+}
+.class2{
+	color:#db6d24;
+	
+}

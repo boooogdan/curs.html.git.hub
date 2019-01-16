@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+transition:width .5s ease;
+}
+
+body,html {
+    font-family: "Lato", sans-serif;
+	width:100%;
+	height:100%;
+	background-color:lightgray;
+}
+header{
+width:100%;
+background-color:gray;
+}
+.meniu{display:none}
+nav{display:table;margin:auto;padding-top:100px;}
+nav ul li{list-style:none;float:left;margin-right:1px}
+nav ul li a{text-decoration:none;padding:10px 20px;background-color:turquoise;color:white;display:block;width:100px;text-align:center;}
+nav ul li a:hover{background-color:#19493B;color:turquoise;}
+
+@media screen and (max-width:500px){
+.meniu{display:block}
+nav{position:absolute;padding-top:0px;width:100%;}
+nav ul li{float:none;border-bottom:1px solid lightgray}
+nav ul {width:100%;}
+nav ul li a{width:100%;text-align:left;}
+.buton{font-size:50px;text-decoration:none;color:white;float:right;}
+.buton:hover{color:lightgray;}
+h2{float:left;color:white;padding-top:20px;}
+.meniu{display:table;width:100%;padding:10px;}
+ul{overflow:hidden;}
+.ascuns{width:0px;}
+.activ{width:100%;}
+ul li a{
+background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/White_triangle_right.svg/2000px-White_triangle_right.svg.png);
+background-size: 10px;
+background-repeat:no-repeat;
+background-position:98%;
+}
+}
+</style>
+<script>
+function slide1() {
+    var x = document.getElementById("TopNAV");
+    if (x.style.width == "0px") {
+        x.style.width = "100%";
+    } else {
+        x.style.width = "0px";
+    }
+}
+function slide2() {
+    var x = document.getElementById("TopNAV");
+    if (x.className == "ascuns") {
+        x.className += "activ";
+    } else {
+        x.className = "ascuns";
+    }
+}
+
+</script>
+
+</head>
+<body>
+<header>
+
+<div class="meniu">
+<a href="#" class="buton" onClick="slide2()">&#9776;</a>
+<h2>MENU</h2>
+</div>
+	<nav role="navigation" >
+		<ul id="TopNAV" class="ascuns">
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Clients</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+     
+</body>
+</html> 

@@ -1,0 +1,13 @@
+*{
+	background-color: #bce5f3
+}
+div{border:1px solid red;
+padding:20px;
+}
+table td,th{border:1px solid;	
+}
+table{border-collapse:collapse;
+}
+table{ border-bottom:2px solid red;
+}td{
+	padding:20px;

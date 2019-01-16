@@ -1,0 +1,22 @@
+.comparison{
+max-width:940px;
+margin:0 auto;
+font:13px/1.4 "Helvetica Neve", Helvetica, Arial, sans-serif;
+text-align:center;
+padding:10px;
+}
+
+Table td, th{
+	Border:1px solid #b5c1b6;
+	padding: 20px;
+	text-align:center;
+	margin: 0 auto;
+}
+Table{
+	border-collapse:collapse;
+	margin:20px;
+}
+.class1{
+	color:gray;
+	text-decoration:line-through;
+}
